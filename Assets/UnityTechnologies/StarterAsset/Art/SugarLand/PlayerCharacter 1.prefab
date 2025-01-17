@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1616551721624358792}
   - component: {fileID: 2425318652533777238}
   - component: {fileID: 8189379656475319261}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerCharacter 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,6 +188,7 @@ MonoBehaviour:
       m_Flags: 8
     m_Flags: 0
   timeInvincible: 2
+  projectilePrefab: {fileID: 3080804849494061545, guid: 7e32de49ca76148f9b255b500f150305, type: 3}
   maxHealth: 5
 --- !u!50 &1616551721624358792
 Rigidbody2D:
